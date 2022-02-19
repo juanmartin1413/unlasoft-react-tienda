@@ -1,0 +1,70 @@
+[
+    {
+        "id":1,
+        "titulo":"DISCO SSD WD BLUE SN550 500GB M.2 PCIE",
+        "descripcion": "NVMe SSD",
+        "precio": 5200,
+        "categoria":"ALMACENAMIENTO",
+        "cantidad":2,
+        "img":"/img/ssd_wdblue_500gb.jpg"
+
+    },
+    {
+        "id":2,
+        "titulo":"DISCO SSD WD BLACK SN750SE 1TB M.2 GEN4",
+        "descripcion": "NVMe SSD",
+        "precio": 14000,
+        "categoria":"ALMACENAMIENTO",
+        "cantidad":4,
+        "img":"/img/ssd_wdblack_1tb.jpg"
+    },
+    {
+        "id":3,
+        "titulo":"DISCO SSD KINGSTON M2 500GB NV1 NVME",
+        "descripcion": "Disco Sólido Ssd  500gb M2 Pcie Nvme",
+        "precio": 5200,
+        "categoria":"ALMACENAMIENTO",
+        "cantidad":1,
+        "img":"/img/ssd_kingston_500gb.jfif"
+    },
+    {
+        "id":4,
+        "titulo":"AURICULAR HYPERX CLOUD II PRO GUN METAL",
+        "descripcion": "Auricular gamer 7.1",
+        "precio": 5500,
+        "categoria":"PERIFERICOS",
+        "cantidad":16,
+        "img":"/img/AURICULAR-HYPERX-CLOUD-II-GUN-METAL.jpg"
+
+    },
+    {
+        "id":5,
+        "titulo":"MOUSE EVGA X17 GAMING MOUSE WIRED BLACK",
+        "descripcion": "Mouse gamer excelente calidad",
+        "precio": 3000,
+        "categoria":"PERIFERICOS",
+        "cantidad":3,
+        "img":"/img/mouse_evga_x17.jpg"
+
+    },
+    {
+        "id":6,
+        "titulo":"AURICULAR COOLERMASTER CH-321 RGB USB",
+        "descripcion": "Auricular gamer con luces de colores",
+        "precio": 4000,
+        "categoria":"PERIFERICOS",
+        "cantidad":4,
+        "img":"/img/auricular_cooolermaster.jpg"
+
+    },
+    {
+        "id":7,
+        "titulo":"TECLADO MEC EVGA Z15 RGB LINEAL ESPANOL",
+        "descripcion": "Teclado mecanico gamer rgb",
+        "precio": 5500,
+        "categoria":"PERIFERICOS",
+        "cantidad":7,
+        "img":"/img/teclado_evga.jpg"
+
+    }
+]
