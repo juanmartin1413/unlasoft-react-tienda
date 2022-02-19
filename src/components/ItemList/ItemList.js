@@ -9,7 +9,7 @@ export default function ItemList({productos}){
     },[]);
 
     return (
-        <div>
+        <div className="row">
             {
                 productos.map(function(producto){
                     return (
