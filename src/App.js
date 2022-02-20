@@ -3,7 +3,8 @@ import './App.css';
 import NavBar from './components/NavBar/NavBar';
 import ItemListContainer from './components/ItemListContainer/ItemListContainer';
 import ItemDetailContainer from './components/ItemDetailContainer/ItemDetailContainer';
-import {BrowserRouter, Routes,Rout, Route} from 'react-router-dom';
+import Cart from './components/Cart/Cart';
+import {BrowserRouter, Routes, Route} from 'react-router-dom';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
             <Route path="/" element={<ItemListContainer greeting="Curso React Coderhouse"/>}/>
             <Route path="/producto/:productoId" element={<ItemDetailContainer/>}/>
             <Route path="/categoria/:categoriaNombre" element={<ItemListContainer greeting="Categoria"/>}/>
+            <Route path="/cart" element={<Cart/>}/>
           </Routes>
         </div>
       </BrowserRouter>

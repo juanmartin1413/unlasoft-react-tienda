@@ -48,7 +48,7 @@ export default function NavBar(){
                     </li>
                 </ul>
                 <span id='btnCart' className='btnNavBar btn m-2'>
-                    <CartWidget/>
+                    <NavLink to="/cart"><CartWidget/></NavLink>
                 </span> 
                 <form className="d-flex">
                     <input className="form-control me-2" type="search" aria-label="Search"/>

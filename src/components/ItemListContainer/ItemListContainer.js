@@ -40,8 +40,7 @@ export default function ItemListContainer({greeting}){
         <div>
             <h1>{greeting} </h1>
             <div className="container">
-                    {productos.length>0?<ItemList productos={productos}/>:<p>Cargando...</p>}
-                <ItemCount stock={5} initial={1} onAdd={agregarItems}/>
+                {productos.length>0?<ItemList productos={productos}/>:<p>Cargando...</p>}               
             </div>
         </div>
 
