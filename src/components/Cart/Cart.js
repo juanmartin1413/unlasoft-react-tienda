@@ -5,7 +5,7 @@ import CartItem from '../CartItem/CartItem';
 
 
 export default function Cart(){
-    const {cart}=useContext(CartContext);
+    const {cart, vaciarCarrito}=useContext(CartContext);
     console.log('ingresando al componente cart');
     console.log(cart);
     console.log(cart.length);
@@ -29,6 +29,7 @@ export default function Cart(){
                     }
                 </tbody>
             </table>
+            <button type="button" className="btn btn-danger" onClick={vaciarCarrito}>Vaciar Carrito</button>
         </div>
     );
 }
