@@ -1,7 +1,8 @@
-import React, { useState } from "react";
+import React, { useContext, useState } from "react";
 import './ItemDetail.css';
 import ItemCount from '../ItemCount/ItemCount';
 import {Link} from 'react-router-dom';
+import { CartContext } from "../../context/CartContext";
 
 
 export default function ItemDetail({producto}){
@@ -9,13 +10,15 @@ export default function ItemDetail({producto}){
     //esta propiedad la uso para saber si el usuario ya agrego los items al carrito y entonces
     //quiere "finalizar la compra"
     const [compraFinalizada, setCompraFinalizada]= useState();
+    const {cart, addToCart}=useContext(CartContext);
 
-    function agregarItems(cantidad){
-        //reduzco el stock restandole la cantidad que agrego el usuario
-        setStock(stock-cantidad);
+    function agregarItems(cantidadComprada){
+        console.log(cart);
+        console.log(addToCart);
         setCompraFinalizada(true);
+        addToCart(producto,cantidadComprada);
     }
-
+    console.log(cart);
 
     return (
         <div className="card">
