@@ -13,12 +13,9 @@ export default function ItemDetail({producto}){
     const {cart, addToCart}=useContext(CartContext);
 
     function agregarItems(cantidadComprada){
-        console.log(cart);
-        console.log(addToCart);
         setCompraFinalizada(true);
         addToCart(producto,cantidadComprada);
     }
-    console.log(cart);
 
     return (
         <div className="card">

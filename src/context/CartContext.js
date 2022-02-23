@@ -5,11 +5,12 @@ export const CartContext =createContext([]);
 export default function CartContextProvider({children}){
     const [cart, setCart]=useState([]);
 
-    function addToCart(producto,cantidadComprada){
+    const addToCart = (producto,cantidadComprada)=>{
         setCart([...cart, {...producto, cantidadComprada}]);
     }
+
     return (
-        <CartContext.Provider value={cart, addToCart}>
+        <CartContext.Provider value={{cart, addToCart}}>
             {children}
         </CartContext.Provider>
     );
